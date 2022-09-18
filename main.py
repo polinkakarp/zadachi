@@ -27,7 +27,7 @@ otv = voprosi[0][1]
 #  cursor.execute('INSERT INTO zad (number, zad, otvet) VALUES (?, ?, ?)', (number, zad, otvet))
 #  conn.commit()
 
-bot = telebot.TeleBot("")
+bot = telebot.TeleBot("5785203591:AAF_Pt5lg_-OJWhU8anchi5rDLWhjbia_wk")
 BOT_URL = ''
 @bot.message_handler(commands=['start'])
 def start(message):
